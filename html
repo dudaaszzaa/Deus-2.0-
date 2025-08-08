@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Preces - Deus 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Preces - Deus 2.0</h1>
+        
+        <div class="priority-queue">
+            <h2>Fila de Prioridade de Preces</h2>
+            <div class="form-group">
+                <label for="prayer-text">Sua Prece:</label>
+                <textarea id="prayer-text" rows="3" placeholder="Digite sua prece aqui..."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="prayer-type">Tipo de Prece:</label>
+                <select id="prayer-type">
+                    <option value="health">Saúde</option>
+                    <option value="money">Dinheiro</option>
+                    <option value="love">Amor</option>
+                </select>
+            </div>
+            <button id="submit-prayer">Enviar Prece</button>
+            
+            <h3>Preces Pendentes:</h3>
+            <ul class="prayer-list" id="prayer-queue">
+                <!-- Preces serão adicionadas aqui -->
+            </ul>
+        </div>
+        
+        <div class="ethical-controls">
+            <h2>Controles Éticos</h2>
+            <div class="ethical-issue">
+                <h3>Debugging Ético</h3>
+                <p>Problema detectado: Milagre de nevar no deserto está causando desequilíbrio ecológico.</p>
+                <label for="ethical-solution">Solução Proposta:</label>
+                <select id="ethical-solution">
+                    <option value="adjust">Ajustar para chuva moderada</option>
+                    <option value="compensate">Compensar com aumento de temperatura em outra região</option>
+                    <option value="deny">Negar o milagre por questões éticas</option>
+                </select>
+                <button id="apply-solution" style="margin-top: 10px;">Aplicar Solução</button>
+            </div>
+        </div>
+        
+        <div class="consequences">
+            <h2>Consequências das Escolhas</h2>
+            <div id="consequences-list">
+                <!-- Consequências serão mostradas aqui -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
