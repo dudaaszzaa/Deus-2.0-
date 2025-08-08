@@ -1,0 +1,115 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-beige: #F5F5DC;
+    --color-gold: #D4AF37;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-beige);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--color-white);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: var(--color-gold);
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid var(--color-gold);
+    padding-bottom: 10px;
+}
+
+.priority-queue, .ethical-controls, .consequences {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gold);
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select, input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--color-gold);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.prayer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.prayer-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid var(--color-gold);
+    background-color: rgba(212, 175, 55, 0.1);
+}
+
+.health {
+    border-left-color: #FF0000;
+}
+
+.money {
+    border-left-color: #008000;
+}
+
+.love {
+    border-left-color: #FF69B4;
+}
+
+.priority {
+    font-weight: bold;
+    color: var(--color-gold);
+}
+
+.ethical-issue {
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.consequence {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
